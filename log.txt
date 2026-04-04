@@ -1,3 +1,0 @@
-Error de conexión
-Todo OK
-error crítico
