@@ -89,7 +89,7 @@ def eliminar_tarea(args):
 def main():
     parser = argparse.ArgumentParser(description="Gestor de tareas")
 
-    # 🔥 CLAVE: required=True
+    # CLAVE: required=True
     subparsers = parser.add_subparsers(dest="comando", required=True)
 
     # ADD
