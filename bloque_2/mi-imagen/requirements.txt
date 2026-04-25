@@ -1,1 +1,3 @@
 
+cowsay==6.1
+requests
