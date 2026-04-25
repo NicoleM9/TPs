@@ -1,1 +1,3 @@
 
+## 3.2: La imagen final agrega el tamaño de las dependencias (cowsay) y el archivo de la aplicación sobre la imagen base python:3.11-slim.
+## 3.3: Cuando se modifica app.py, solo se vuelve a ejecutar la instrucción COPY app.py. Cuando se modifica requirements.txt, se vuelven a ejecutar las instrucciones COPY requirements.txt y RUN pip install. Esto ocurre porque Docker utiliza un sistema de cache por capas, y al cambiar una capa, se invalidan las siguientes.
