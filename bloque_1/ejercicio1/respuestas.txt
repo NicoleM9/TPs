@@ -1,1 +1,3 @@
 
+Ejercicio 1.2
+Para que cowsay esté siempre disponible, se debe crear una imagen personalizada usando un Dockerfile donde se instale la dependencia.

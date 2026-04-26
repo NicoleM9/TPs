@@ -1,1 +1,2 @@
-
+¿Qué hace -v $(pwd):/app?
+El volumen permite que los archivos creados o modificados dentro del contenedor se reflejen en la máquina local, facilitando el desarrollo.

@@ -1,1 +1,2 @@
 
+Los contenedores en background permiten ejecutar procesos de forma independiente, manteniéndolos activos sin necesidad de interacción directa.

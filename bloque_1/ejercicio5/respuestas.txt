@@ -1,1 +1,11 @@
 
+Instalar dependencias en tiempo de ejecución no es eficiente ni reproducible. La solución correcta es crear una imagen personalizada con las dependencias 
+preinstaladas.
+
+Respuesta ejercicio de sintesis:
+Al comparar los resultados, se observa que:
+-La versión de Python cambia según la imagen utilizada.
+-El sistema operativo dentro del contenedor es diferente al local (generalmente Linux).
+-El hostname cambia, ya que cada contenedor tiene uno propio.
+-Las variables de entorno pueden variar según la configuración del contenedor.
+-Los recursos como CPU y memoria pueden diferir dependiendo del entorno donde se ejecuta Docker.
